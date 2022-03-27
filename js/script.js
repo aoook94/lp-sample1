@@ -59,3 +59,6 @@ jQuery('#js-form').on('input', function(e) {
         jQuery("#js-submit").prop('disabled', true);
     }
   });
+
+//wow.js
+new WOW().init();
