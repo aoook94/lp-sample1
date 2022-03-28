@@ -90,26 +90,34 @@ img {
   }
 }
 
-.l-about {
+.l-parallax__about {
   padding-bottom: 66.6666666667%;
   background: url(../img/parallax1.png) no-repeat bottom center/cover;
   background-attachment: fixed;
 }
 @media screen and (min-width: 768px) {
-  .l-about {
+  .l-parallax__about {
     padding-bottom: 31.25%;
   }
 }
 
-.l-menu {
+.l-about {
+  background: #F2F2F2;
+}
+
+.l-parallax__menu {
   padding-bottom: 66.6666666667%;
   background: url(../img/parallax2.png) no-repeat bottom center/cover;
   background-attachment: fixed;
 }
 @media screen and (min-width: 768px) {
-  .l-menu {
+  .l-parallax__menu {
     padding-bottom: 31.25%;
   }
+}
+
+.l-menu {
+  background: #2F2F2F;
 }
 
 .l-footer {
@@ -488,7 +496,6 @@ img {
 }
 
 .p-about {
-  background: #F2F2F2;
   padding: 64px 0;
   max-width: 1440px;
   margin: 0 auto;
@@ -648,7 +655,6 @@ img {
 }
 
 .p-menu {
-  background: #2F2F2F;
   padding: 24px 16px;
 }
 @media screen and (min-width: 768px) {
